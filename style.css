@@ -88,5 +88,20 @@ div#parent section .links{
 div#parent section .links .lab.la-youtube{
 color:red;
 }
+div#parent section aside{
+    transform-origin: right;
+    transform: rotate(90deg);
+    position:relative;
+    top:600px;
+}
+div#parent section aside ul li{
+    display:inline-block;
+    margin-left:-50px;
+    margin-right:100px;
+    }
+
+    
+
+
 
 
