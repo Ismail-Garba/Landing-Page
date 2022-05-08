@@ -15,7 +15,7 @@ div#parent header{
 div#parent header .logo h1{
 color: rgb(243, 95, 10);
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 20px;
+font-size: 22px;
     }
     
 
@@ -55,27 +55,20 @@ div#parent section .content{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-div#parent section .content h5{
+div#parent section .content h4{
     margin-bottom: 10px;
-    font: size 14px;
     color:rgb(243, 95, 10);
-}
-div#parent section .content p{
-    font-size: 15px;
-    margin-top: 0px;
-    font-weight:500;
-    padding-right:10px;
-}
 
-
+    }
 div#parent section .title h1{
+
     font-size: 90px;
     font-weight: 900;
     margin-top: 15px;
     line-height: 50px;
 }
 div#parent section .content p{
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 0px;
     font-weight:500;
     padding-right:10px;
@@ -99,7 +92,18 @@ div#parent section aside ul li{
     margin-left:-50px;
     margin-right:100px;
     }
-
+    div#parent section aside ul li a{
+    color:rgb(58, 52, 52);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+        }  
+        
+    div#parent footer {
+        position:relative;
+        top:250px;
+    }
+    
     
 
 
