@@ -123,8 +123,21 @@ div#parent footer .right{
 div#parent footer .left .container{
     color:rgb(236, 235, 228);
 }
+div#parent footer .left .container:hover{
+    color:rgb(34, 31, 30);
+    transition:all 250ms ease-in-out;
+}  
+div#parent footer .right h3{
+    padding-left:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+div#parent footer .right a{
+    text-decoration: none;
+    line-height:25px;
+    color:black;
+}
 
-    
     
 
 
