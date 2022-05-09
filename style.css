@@ -7,6 +7,7 @@ div#parent{
     background: url('/home/ismail/repos/Landing Page/images/man.jpg') no-repeat; 
     background-size: contain;
     background-position-y: -20px;
+    /**position: relative;**/
 }
 
 div#parent header{
@@ -49,7 +50,8 @@ div#parent section .title{
 div#parent section .title h4{
     font-size: 14px;
     margin-bottom: 0px;
-    font-weight: lighter;
+    /**font-weight: lighter;**/
+    color:rgb(243, 95, 10);
 }
 div#parent section .content{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,7 +63,7 @@ div#parent section .content h4{
 
     }
 div#parent section .title h1{
-
+    color:  rgb(90, 61, 24);
     font-size: 90px;
     font-weight: 900;
     margin-top: 15px;
@@ -72,6 +74,7 @@ div#parent section .content p{
     margin-top: 0px;
     font-weight:500;
     padding-right:10px;
+    line-height: 23px;
 }
 
 
@@ -100,9 +103,27 @@ div#parent section aside ul li{
         }  
         
     div#parent footer {
+        height:150px;
         position:relative;
-        top:250px;
+        top:400px;
     }
+    div#parent footer .left{
+        background-color: rgb(136, 133, 130);
+        height:inherit;
+        width:100%;
+}
+div#parent footer .right{
+    background-color: rgb(219, 217, 213);
+    height:inherit;
+    width:50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div#parent footer .left .container{
+    color:rgb(236, 235, 228);
+}
+
     
     
 
